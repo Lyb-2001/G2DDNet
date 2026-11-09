@@ -1,16 +1,13 @@
-This is the official repository for our paper, "Generative-to-Discriminative: Uncertainty-Aware Distillation for RGB-T Snowy Urban Scene Parsing". 
-
-🔥 **Highlights:** We pioneer a novel Generative-to-Discriminative (G2D) framework that successfully resolves the trade-off between generative uncertainty modeling and real-time inference. Our exceptionally lightweight student network, **G2DNet-S***, achieves state-of-the-art **83.0% mIoU** while requiring only **5.76 M parameters** and **15.62 G FLOPs**, running at robust **24.76 FPS**.
 
 ## Architecture and Details
 
-### 1. Overall G2D Framework & UAD Strategy
+### 1. Overall
 <img width="1271" height="786" alt="image" src="https://github.com/user-attachments/assets/8320a2ab-1d5a-4d5c-90d6-bee028659384" />
 
-### 2. Generative Teacher (G2DNet-T)
+### 2. Generative Teacher
 <img width="1288" height="702" alt="image" src="https://github.com/user-attachments/assets/f40da672-bf92-4bc6-af12-0eb251650121" />
 
-### 3. Real-Time Student (G2DNet-S) with MSA & FDA
+### 3. Real-Time Student
 <img width="601" height="327" alt="student" src="https://github.com/user-attachments/assets/8a38e7d0-a451-4dd4-adf5-d1eeb553454f" />
 
 ## Result
